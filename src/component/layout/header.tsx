@@ -3,15 +3,17 @@ export default function Header() {
     <header>
       <nav id="nav-bar" className="container">
         <div id="logo">
-          <img
-            className="panda-logo"
-            src="/layout/panda logo.png"
-            alt="panda logo"
-          />
+          <a href="/">
+            <img
+              className="panda-logo"
+              src="/layout/panda logo.png"
+              alt="panda logo"
+            />
+          </a>
         </div>
 
         <div className="nav-links">
-          <a href="#">Home</a>
+          <a href="/">Home</a>
           <a href="#">About</a>
           <a href="#">Services</a>
           <a href="#" className="hosting">
