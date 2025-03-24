@@ -49,6 +49,34 @@ body {
   background-color: #ffffff00;
 }
 
+.input-text {
+  width: 100%;
+  height: 54px;
+  border: 1.5px solid #220e391c;
+  background-color: #ffffff00;
+  backdrop-filter: blur(3.5999999046325684px);
+  border-radius: 14px;
+  color: #ed345603;
+  font-size: 1.2rem;
+  margin: 12px 0;
+}
+
+.input-text::placeholder {
+  color: #220e3938;
+  font-family: Sora;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 16px;
+}
+#message {
+  height: 240px;
+}
+label {
+  font-family: Sora;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
 img {
   width: 100%;
 }
@@ -1033,31 +1061,91 @@ footer {
   border: 1.5px solid rgba(237, 52, 86, 0.51);
   border-radius: 14px;
   padding: 42px 12px;
-  margin: 124px 0  ;
+  margin: 124px 0;
 }
 
-.cta h3{
+.cta h3 {
   margin: 0;
 }
-.cta button{
+.cta button {
   margin-top: 36px;
 }
 .cta p {
   font-weight: 300;
 }
 
-.domain-container{
+.domain-container {
   justify-content: space-around;
   padding: 0 14%;
 }
-.domain-card{
+.domain-card {
   flex-direction: column;
 }
 
-.domain-card h3{
+.domain-card h3 {
   margin: 24px 0;
 }
 
-.domain-card button{
+.domain-card button {
   margin: 42px 0;
+}
+
+.contact-col {
+  margin: 0 64px;
+  width: 100%;
+}
+
+.contact-col:last-child {
+  width: 91%;
+}
+
+.message-button {
+  text-align: center;
+  margin: 36px 0;
+}
+
+.contact-container {
+  width: 80%;
+  justify-self: anchor-center;
+}
+
+.contact-text {
+  width: 100%;
+  height: 200px;
+  padding: 26px 0;
+  border-radius: 34px;
+  background: #220e39;
+  background-image: url("http://localhost:3000/Hosting-Banner-Logo.svg"),
+    url("http://localhost:3000/layout/hosting-line1.svg"),
+    url("http://localhost:3000/layout/hosting-line2.svg");
+  background-size: 227px, 210px;
+  background-position: 0 0, 100% 100%, 100% 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: Sora;
+}
+
+.contact-icons {
+  justify-content: space-evenly;
+  margin: 0 0 -28px 0;
+}
+
+.contact-icons div {
+  width: 32px;
+  height: 32px;
+  background-color: #ed3456;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+}
+
+.contact-text .flex {
+  justify-content: space-evenly;
+}
+
+#map {
+  width: 125%;
+  margin: 0 -12.5%;
+  top: -114px;
+  z-index: -1;
 }

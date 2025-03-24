@@ -34,7 +34,7 @@ export default function Header() {
               />
             </svg>
           </Link>
-          <Link href="/contract">Contract</Link>
+          <Link href="/contact">Contact</Link>
         </div>
 
         <div id="nav-actions">
