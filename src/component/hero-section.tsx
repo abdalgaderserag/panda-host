@@ -1,8 +1,9 @@
-export default function heroSection({ title }) {
+export default function heroSection({ title, showFull = true }) {
   const mainContainer = {
     width: "100%",
     justifyItems: "center",
   };
+
   return (
     <section id="hero-section" className="container">
       <div className="left-section" style={mainContainer}>
