@@ -1,7 +1,9 @@
 export default function pricingPlans() {
   return (
     <section id="pricing">
-      <h2 className="header-2">Our Pricing</h2>
+      <div className="header-2-container">
+        <h2 className="header-2">Our Pricing</h2>
+      </div>
       <h3 className="header-3">We Offer Best Pricing</h3>
       <div id="pricing-cards">
         <div className="price-card">
@@ -26,19 +28,19 @@ export default function pricingPlans() {
             <span>What’s included</span>
             <div className="price-feat">
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle.svg" alt="check icon" />
                 All analytics features
               </div>
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle.svg" alt="check icon" />
                 Up to 250,000 tracked visits
               </div>
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle.svg" alt="check icon" />
                 Normal support
               </div>
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle.svg" alt="check icon" />
                 Up to 3 team members
               </div>
             </div>
@@ -68,19 +70,19 @@ export default function pricingPlans() {
             <span>What’s included</span>
             <div className="price-feat">
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle-pink.svg" alt="check icon" />
                 All analytics features
               </div>
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle-pink.svg" alt="check icon" />
                 Up to 1,000,000 tracked visits
               </div>
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle-pink.svg" alt="check icon" />
                 Premium support
               </div>
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle-pink.svg" alt="check icon" />
                 Up to 10 team members
               </div>
             </div>
@@ -95,8 +97,8 @@ export default function pricingPlans() {
               <div></div>
             </div>
             <div className="price-header-text">
-              <span>For individuals</span>
-              <h4>Basic</h4>
+              <span>For big companies</span>
+              <h4>Enterprise</h4>
             </div>
           </div>
           <div className="price-body">
@@ -105,25 +107,25 @@ export default function pricingPlans() {
               elit.
             </p>
             <div className="price">
-              <span>$99 </span>/monthly
+              <span>$399 </span>/monthly
             </div>
             <span>What’s included</span>
             <div className="price-feat">
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle.svg" alt="check icon" />
                 All analytics features
               </div>
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
-                Up to 250,000 tracked visits
+                <img src="/layout/Check Circle.svg" alt="check icon" />
+                Up to 5,000,000 tracked visits
               </div>
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
+                <img src="/layout/Check Circle.svg" alt="check icon" />
                 Normal support
               </div>
               <div>
-                <img src="/layout/globe.svg" alt="check icon" />
-                Up to 3 team members
+                <img src="/layout/Check Circle.svg" alt="check icon" />
+                Up to 50 team members
               </div>
             </div>
             <button className="button button-primary">Get started</button>

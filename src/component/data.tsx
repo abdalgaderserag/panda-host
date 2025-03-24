@@ -1,7 +1,9 @@
 export default function data() {
   return (
     <section id="world">
-      <h2 className="header-2">Data Center</h2>
+      <div className="header-2-container">
+        <h2 className="header-2">Data Center</h2>
+      </div>
       <h3 className="header-3">
         We Have Million of <br />
         User World Wide

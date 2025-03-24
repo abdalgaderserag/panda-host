@@ -1,7 +1,9 @@
 export default function faq() {
   return (
     <section className="container">
-      <h2 className="header-2">FAQ</h2>
+      <div className="header-2-container">
+        <h2 className="header-2">FAQ</h2>
+      </div>
       <h3 className="header-3">Frequently Ask Questions</h3>
       <div id="faq">
         <div className="left-faq">

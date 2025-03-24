@@ -1,22 +1,24 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header>
       <nav id="nav-bar" className="container">
         <div id="logo">
-          <a href="/">
+          <Link href="/">
             <img
               className="panda-logo"
               src="/layout/panda logo.png"
               alt="panda logo"
             />
-          </a>
+          </Link>
         </div>
 
         <div className="nav-links">
-          <a href="/">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#" className="hosting">
+          <Link href="/">Home</Link>
+          <Link href="/about-us">About</Link>
+          <Link href="/services">Services</Link>
+          <Link href="/hosting" className="hosting">
             Hosting
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -31,8 +33,8 @@ export default function Header() {
                 d="m19.5 8.25-7.5 7.5-7.5-7.5"
               />
             </svg>
-          </a>
-          <a href="#">Contract</a>
+          </Link>
+          <Link href="/contract">Contract</Link>
         </div>
 
         <div id="nav-actions">
