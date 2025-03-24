@@ -958,11 +958,11 @@ footer {
   border-radius: 50%;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.service{
+.service {
   align-content: center;
 }
 
@@ -981,7 +981,7 @@ footer {
   border: none;
 }
 
-.service-card:last-child{
+.service-card:last-child {
   border: none;
 }
 
@@ -995,5 +995,52 @@ footer {
 
 .card p {
   margin: 0;
+  font-weight: 300;
+}
+#vps {
+  font-family: Sora;
+}
+#vps p {
+  color: #220e39b8;
+  text-align: center;
+  font-weight: 300;
+}
+
+.vps {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vps-col img {
+  width: 24px;
+  background: #ed345654;
+  border-radius: 50%;
+  padding: 6px;
+  margin: 0 24px -12px 0;
+}
+
+.vps-col div {
+  font-weight: 600;
+  margin: 36px 0;
+}
+
+.cta {
+  font-family: Sora;
+  width: 80%;
+  text-align: center;
+  justify-self: center;
+  border: 1.5px solid rgba(237, 52, 86, 0.51);
+  border-radius: 14px;
+  padding: 42px 12px;
+  margin: 124px 0  ;
+}
+
+.cta h3{
+  margin: 0;
+}
+.cta button{
+  margin-top: 36px;
+}
+.cta p {
   font-weight: 300;
 }
