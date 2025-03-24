@@ -220,6 +220,7 @@ img {
   color: transparent;
   width: max-content;
   font-size: 3rem;
+  text-align: center;
   font-family: Sora;
 }
 
@@ -1043,4 +1044,20 @@ footer {
 }
 .cta p {
   font-weight: 300;
+}
+
+.domain-container{
+  justify-content: space-around;
+  padding: 0 14%;
+}
+.domain-card{
+  flex-direction: column;
+}
+
+.domain-card h3{
+  margin: 24px 0;
+}
+
+.domain-card button{
+  margin: 42px 0;
 }
