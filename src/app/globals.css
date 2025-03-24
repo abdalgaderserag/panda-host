@@ -15,6 +15,9 @@ body {
   margin: 0;
   background-color: #f8f2ff;
   overflow-x: hidden;
+  background-image: url("http://localhost:3000/bg-header.svg");
+  background-blend-mode: exclusion;
+  background-repeat: no-repeat;
 }
 
 .flip {
@@ -803,7 +806,12 @@ footer {
 
 #hero-card-holder {
   display: flex;
+  margin-top: 100px;
   width: 100% !important;
+}
+
+#hero-section h1 {
+  text-align: center;
 }
 .hero-card {
   width: 50% !important;
@@ -919,7 +927,7 @@ footer {
   border-right: 1px solid #ffffff6e;
 }
 
-.state-card:last-child{
+.state-card:last-child {
   border: none;
 }
 #state h4 {
@@ -930,4 +938,62 @@ footer {
 
 #state p {
   margin: 0;
+}
+
+.card {
+  display: flex;
+  font-family: Sora;
+}
+
+.card div {
+  margin-left: 24px;
+}
+
+.card img {
+  width: 34px;
+  height: 34px;
+  margin: 12px 0 0 0;
+  background: #ed34561a;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.flex{
+  display: flex;
+}
+
+.service{
+  align-content: center;
+}
+
+.service-card {
+  border-bottom: 1px solid #ed34561a;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.service-card:first-child {
+  background: linear-gradient(
+    90deg,
+    rgba(237, 52, 86, 0.25) 0%,
+    rgba(237, 52, 86, 0) 100%
+  );
+  border: none;
+}
+
+.service-card:last-child{
+  border: none;
+}
+
+.card h3 {
+  color: #ed3456;
+  margin: 8px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.card p {
+  margin: 0;
+  font-weight: 300;
 }
