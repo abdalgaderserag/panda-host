@@ -39,6 +39,11 @@ body {
   cursor: pointer;
   width: 12rem;
 }
+
+.button-sharper{
+  border-radius: 8px;
+}
+
 .button-primary {
   color: #f8f2ff;
   background-color: #ed3456;
@@ -1148,4 +1153,130 @@ footer {
   margin: 0 -12.5%;
   top: -114px;
   z-index: -1;
+}
+
+.cart-offer {
+  background: linear-gradient(90deg, #5f279f 0%, #220e39 0.01%, #5f279f 100%);
+  color: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px;
+  margin: 64px 0;
+  font-weight: 500;
+  font-size: 1.2rem;
+  width: 60%;
+  justify-self: center;
+}
+
+.cart-header {
+  background-image: linear-gradient(0deg, #572e86 13.43%, #ed3456 73.37%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  width: max-content;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Sora;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-col:first-child {
+  width: 52%;
+}
+
+.card-col:last-child {
+  width: 34%;
+}
+
+.card-col {
+  border: 2px solid #220e391c;
+  border-radius: 14px;
+  padding: 8px 3% 28px 3%;
+  backdrop-filter: blur(3.5999999046325684px);
+}
+
+.card-col .header-3 {
+  text-align: left;
+  border-bottom: 2px solid #220e391c;
+  padding: 8px 0;
+}
+.card-col:last-child .header-3 {
+  border: none;
+}
+
+.cart-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Sora;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cart-plan select {
+  width: 46%;
+  color: #220e39;
+  padding: 0 8px;
+}
+
+.cart-dark-bg {
+  background: #220e39;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 6px 18px;
+  border-radius: 40px;
+}
+
+.cart-delete {
+  color: #220e39bf;
+  text-decoration: line-through;
+  font-size: 0.8rem;
+}
+
+.cart-note {
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 14px 0;
+}
+
+.cart-col-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-col-header-price {
+  color: #ed3456;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.card-col:last-child .cart-note{
+  font-size: 0.9rem;
+  margin: -18px 0 14px 0;
+}
+
+.card-col .flex{
+  justify-content: space-between;
+}
+
+.card-col .flex div:last-child{
+  color: #ed3456;
+  font-weight: 700;
+}
+.card-col p{
+  color: #ed3456;
+  font-weight: 600;
+  margin: 4px 0 24px 0;
+}
+
+.shield{
+  width: 24px;
+  margin: 14px 8px -6px 60%;
 }
