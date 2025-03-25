@@ -5,10 +5,6 @@ import Cta from "@/component/cta";
 import HeroSection from "@/component/hero-section";
 
 export default function domain() {
-  const mainContainer = {
-    width: "100%",
-    justifyItems: "center",
-  };
   const heroImage = {
     margin: "0 25%",
     width: "50%",

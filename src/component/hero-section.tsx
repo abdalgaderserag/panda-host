@@ -1,3 +1,4 @@
+import React from "react";
 export default function heroSection({ title, showFull = true }) {
   const mainContainer = {
     width: "100%",
@@ -8,7 +9,7 @@ export default function heroSection({ title, showFull = true }) {
     <section id="hero-section" className="container">
       <div className="left-section" style={mainContainer}>
         <h1 className="button button-primary">Hosting For All Businesses</h1>
-        <div>{title}</div>
+        <div dangerouslySetInnerHTML={{ __html: title }}></div>
         <svg
           width="266"
           height="14"
@@ -35,56 +36,58 @@ export default function heroSection({ title, showFull = true }) {
             </linearGradient>
           </defs>
         </svg>
-        <div id="hero-card-holder">
-          <div className="hero-card">
-            <img src="./layout/server.png" alt="server icon" />
-            <div>
-              <h3 className="header-3">Shared Hosting</h3>
-              <p>
-                At Panda Hosting, we believe <br /> in simplifying technology to{" "}
-                <br />
-                empower
-              </p>
-              <img src="/layout/arrow-top-right.svg" alt="arrow icon" />
+        {showFull && (
+          <div id="hero-card-holder">
+            <div className="hero-card">
+              <img src="./layout/server.png" alt="server icon" />
+              <div>
+                <h3 className="header-3">Shared Hosting</h3>
+                <p>
+                  At Panda Hosting, we believe <br /> in simplifying technology
+                  to <br />
+                  empower
+                </p>
+                <img src="/layout/arrow-top-right.svg" alt="arrow icon" />
+              </div>
+            </div>
+            <div className="hero-card">
+              <img src="./layout/server.png" alt="server icon" />
+              <div>
+                <h3 className="header-3">Shared Hosting</h3>
+                <p>
+                  At Panda Hosting, we believe <br /> in simplifying technology
+                  to <br />
+                  empower
+                </p>
+                <img src="/layout/arrow-top-right.svg" alt="arrow icon" />
+              </div>
+            </div>
+            <div className="hero-card">
+              <img src="./layout/server.png" alt="server icon" />
+              <div>
+                <h3 className="header-3">Shared Hosting</h3>
+                <p>
+                  At Panda Hosting, we believe <br /> in simplifying technology
+                  to <br />
+                  empower
+                </p>
+                <img src="/layout/arrow-top-right.svg" alt="arrow icon" />
+              </div>
+            </div>
+            <div className="hero-card">
+              <img src="./layout/server.png" alt="server icon" />
+              <div>
+                <h3 className="header-3">Shared Hosting</h3>
+                <p>
+                  At Panda Hosting, we believe <br /> in simplifying technology
+                  to <br />
+                  empower
+                </p>
+                <img src="/layout/arrow-top-right.svg" alt="arrow icon" />
+              </div>
             </div>
           </div>
-          <div className="hero-card">
-            <img src="./layout/server.png" alt="server icon" />
-            <div>
-              <h3 className="header-3">Shared Hosting</h3>
-              <p>
-                At Panda Hosting, we believe <br /> in simplifying technology to{" "}
-                <br />
-                empower
-              </p>
-              <img src="/layout/arrow-top-right.svg" alt="arrow icon" />
-            </div>
-          </div>
-          <div className="hero-card">
-            <img src="./layout/server.png" alt="server icon" />
-            <div>
-              <h3 className="header-3">Shared Hosting</h3>
-              <p>
-                At Panda Hosting, we believe <br /> in simplifying technology to{" "}
-                <br />
-                empower
-              </p>
-              <img src="/layout/arrow-top-right.svg" alt="arrow icon" />
-            </div>
-          </div>
-          <div className="hero-card">
-            <img src="./layout/server.png" alt="server icon" />
-            <div>
-              <h3 className="header-3">Shared Hosting</h3>
-              <p>
-                At Panda Hosting, we believe <br /> in simplifying technology to{" "}
-                <br />
-                empower
-              </p>
-              <img src="/layout/arrow-top-right.svg" alt="arrow icon" />
-            </div>
-          </div>
-        </div>
+        )}
       </div>
     </section>
   );
