@@ -40,7 +40,7 @@ body {
   width: 12rem;
 }
 
-.button-sharper{
+.button-sharper {
   border-radius: 8px;
 }
 
@@ -1257,26 +1257,75 @@ footer {
   font-size: 1.6rem;
 }
 
-.card-col:last-child .cart-note{
+.card-col:last-child .cart-note {
   font-size: 0.9rem;
   margin: -18px 0 14px 0;
 }
 
-.card-col .flex{
+.card-col .flex {
   justify-content: space-between;
 }
 
-.card-col .flex div:last-child{
+.card-col .flex div:last-child {
   color: #ed3456;
   font-weight: 700;
 }
-.card-col p{
+.card-col p {
   color: #ed3456;
   font-weight: 600;
   margin: 4px 0 24px 0;
 }
 
-.shield{
+.shield {
   width: 24px;
   margin: 14px 8px -6px 60%;
+}
+#billing .header-3 {
+  border: none;
+  /* margin: 0 0 32px 0; */
+}
+#billing .contact-col {
+  margin: 0 42px 0 0;
+}
+
+#billing label {
+  color: #220e39;
+  font-size: 0.8rem;
+}
+
+#billing input {
+  font-size: 0.8rem;
+  color: #220e39;
+  padding: 0 14px;
+  border-radius: 8px;
+}
+#billing input::placeholder {
+  font-size: 0.9rem;
+  padding: 0 14px;
+}
+#billing .shield {
+  margin-left: 0;
+}
+#billing hr {
+  border-color: #220e391c;
+  margin: 24px 0;
+}
+.card-col-borderless {
+  border: none;
+}
+#billing button {
+  width: 100%;
+  margin: 8px 0;
+}
+.payment-note {
+  color: #220e39 !important;
+  font-family: Sora;
+  font-weight: 300 !important;
+  font-size: 13px;
+  line-height: 148%;
+  letter-spacing: 0%;
+}
+
+.payment-gate .card-col{
+  padding: 8px 3%;
 }
