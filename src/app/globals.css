@@ -176,6 +176,15 @@ img {
     width: 100% !important;
   }
 
+  #hero-card-holder {
+    flex-direction: column;
+  }
+
+  #hero-section .left-section div{
+    width:88% !important;
+    margin-left: 3%;
+  }
+
   /*  */
 }
 
@@ -726,8 +735,8 @@ h1 {
   font-size: 0.9rem;
   width: 20%;
   padding: 24px;
-  background-image: url("http://localhost:5173/src/assets/layout/host-card.png");
-  background-size: contain;
+  background-image: url("http://localhost:3000/layout/host-card.png");
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1118,7 +1127,7 @@ footer {
 .contact-text {
   width: 100%;
   height: 200px;
-  padding: 26px 0;
+  padding: 0 0 26px 0;
   border-radius: 34px;
   background: #220e39;
   background-image: url("http://localhost:3000/Hosting-Banner-Logo.svg"),
@@ -1134,6 +1143,13 @@ footer {
 .contact-icons {
   justify-content: space-evenly;
   margin: 0 0 -28px 0;
+  position: relative;
+  top: -94px;
+  justify-items: center;
+}
+
+.contact-icons:last-child{
+  top: -104px;
 }
 
 .contact-icons div {
@@ -1147,6 +1163,8 @@ footer {
 
 .contact-text .flex {
   justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
 }
 
 #map {
@@ -1154,6 +1172,7 @@ footer {
   margin: 0 -12.5%;
   top: -114px;
   z-index: -1;
+  position: relative;
 }
 
 .cart-offer {
@@ -1444,6 +1463,46 @@ footer {
   width: 94%;
 }
 
-#password-reset button{
+#password-reset button {
   padding: 8px 0;
+}
+
+#vps-table-sec {
+  background: #220e39;
+  color: #fff;
+  font-family: Sora;
+  padding: 42px 4% 142px 4%;
+  margin-top: 84px;
+}
+#vps-table-sec th {
+  padding: 16px;
+}
+#vps-table-sec th:first-child {
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+#vps-table-sec th:last-child {
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+#vps-table-sec thead {
+  background-color: #ed3456;
+}
+#vps-table-sec tbody th {
+  font-weight: 100;
+}
+#vps-table-sec tbody th:last-child {
+  font-weight: 400;
+}
+
+.vps-row {
+  background: #401a6a8c;
+}
+
+.domain-price {
+  font-size: 1.2rem;
+}
+
+.domain-price span {
+  font-size: 2rem;
 }

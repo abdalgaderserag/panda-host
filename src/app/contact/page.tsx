@@ -64,32 +64,34 @@ export default function contact() {
         <div className="message-button">
           <button className="button button-primary">Send Message</button>
         </div>
+        <br /><br />
       </section>
 
       <section className="container contact-container">
-        <div className="contact-icons flex">
-          <div>
-            <img src="/layout/phone.svg" alt="phone icon" />
-          </div>
-          <div>
-            <img src="/layout/email.svg" alt="email icon" />
-          </div>
-          <div>
-            <img src="/layout/location.svg" alt="location icon" />
-          </div>
-        </div>
-
         <div className="contact-text">
           <div className="flex">
             <p>
+            <div className="contact-icons">
+                <div>
+                  <img src="/layout/phone.svg" alt="phone icon" />
+                </div>
+              </div>
               12345678 <br />
               12345678
             </p>
-            <p>
+            <p><div className="contact-icons">
+                <div>
+                  <img src="/layout/email.svg" alt="email icon" />
+                </div>
+              </div>
               panda_host@info <br />
               panda_host@info
             </p>
-            <p>Egypt - cairo</p>
+            <p><div className="contact-icons">
+                <div>
+                  <img src="/layout/location.svg" alt="location icon" />
+                </div>
+              </div>Egypt - cairo</p>
           </div>
         </div>
         <img id="map" src="/layout/map.png" alt="map" />

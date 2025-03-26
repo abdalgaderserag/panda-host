@@ -23,6 +23,102 @@ export default function domain() {
           alt="domain search image"
         />
       </section>
+      <section>
+        <div className="header-2-container">
+          <h2 className="header-2">Our Pricing</h2>
+        </div>
+        <h3 className="header-3">Buy A Domain</h3>
+        <div id="service-cards">
+        <div className="service-row">
+          <div className="service-card">
+              <h4>.com</h4>
+              <p>
+                At Panda Hosting, we believe <br />
+                in simplifying technology to{" "}
+              </p>
+              <span className="domain-price"><b><span>$9</span>.99</b>/year</span>
+             <button className="button button-primary button-sharper full">Choose Plan</button>
+            </div>
+            <div className="service-card">
+              <h4>.com</h4>
+              <p>
+                At Panda Hosting, we believe <br />
+                in simplifying technology to{" "}
+              </p>
+              <span className="domain-price"><b><span>$9</span>.99</b>/year</span>
+             <button className="button button-primary button-sharper full">Choose Plan</button>
+            </div>
+            <div className="service-card">
+              <h4>.com</h4>
+              <p>
+                At Panda Hosting, we believe <br />
+                in simplifying technology to{" "}
+              </p>
+              <span className="domain-price"><b><span>$9</span>.99</b>/year</span>
+             <button className="button button-primary button-sharper full">Choose Plan</button>
+            </div>
+          </div>
+          <br />
+          <div className="service-row">
+          <div className="service-card">
+              <h4>.com</h4>
+              <p>
+                At Panda Hosting, we believe <br />
+                in simplifying technology to{" "}
+              </p>
+              <span className="domain-price"><b><span>$9</span>.99</b>/year</span>
+             <button className="button button-primary button-sharper full">Choose Plan</button>
+            </div>
+            <div className="service-card">
+              <h4>.com</h4>
+              <p>
+                At Panda Hosting, we believe <br />
+                in simplifying technology to{" "}
+              </p>
+              <span className="domain-price"><b><span>$9</span>.99</b>/year</span>
+             <button className="button button-primary button-sharper full">Choose Plan</button>
+            </div>
+            <div className="service-card">
+              <h4>.com</h4>
+              <p>
+                At Panda Hosting, we believe <br />
+                in simplifying technology to{" "}
+              </p>
+              <span className="domain-price"><b><span>$9</span>.99</b>/year</span>
+             <button className="button button-primary button-sharper full">Choose Plan</button>
+            </div>
+          </div>
+          <div className="service-row">
+          <div className="service-card">
+              <h4>.com</h4>
+              <p>
+                At Panda Hosting, we believe <br />
+                in simplifying technology to{" "}
+              </p>
+              <span className="domain-price"><b><span>$9</span>.99</b>/year</span>
+             <button className="button button-primary button-sharper full">Choose Plan</button>
+            </div>
+            <div className="service-card">
+              <h4>.com</h4>
+              <p>
+                At Panda Hosting, we believe <br />
+                in simplifying technology to{" "}
+              </p>
+              <span className="domain-price"><b><span>$9</span>.99</b>/year</span>
+             <button className="button button-primary button-sharper full">Choose Plan</button>
+            </div>
+            <div className="service-card">
+              <h4>.com</h4>
+              <p>
+                At Panda Hosting, we believe <br />
+                in simplifying technology to{" "}
+              </p>
+              <span className="domain-price"><b><span>$9</span>.99</b>/year</span>
+             <button className="button button-primary button-sharper full">Choose Plan</button>
+            </div>
+          </div>
+        </div>
+      </section>
       <Testimonial></Testimonial>
       <section>
         <div className="flex domain-container">
