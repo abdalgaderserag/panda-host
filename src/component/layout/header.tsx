@@ -39,7 +39,7 @@ export default function Header() {
 
         <div id="nav-actions">
           <img src="/layout/globe.svg" alt="globe icon" />
-          <button className="button button-secondary">Login</button>
+          <button className="button button-secondary"><Link href="/login">Login</Link></button>
         </div>
       </nav>
     </header>

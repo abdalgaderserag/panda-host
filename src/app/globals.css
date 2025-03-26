@@ -61,16 +61,17 @@ body {
   background-color: #ffffff00;
   backdrop-filter: blur(3.5999999046325684px);
   border-radius: 14px;
-  color: #ed345603;
-  font-size: 1.2rem;
+  color: #220e39;
+  padding: 2px 16px;
+  font-size: 0.9rem;
   margin: 12px 0;
 }
 
 .input-text::placeholder {
-  color: #220e3938;
+  /* color: #220e3938; */
   font-family: Sora;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   padding: 16px;
 }
 #message {
@@ -79,7 +80,7 @@ body {
 label {
   font-family: Sora;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 
 img {
@@ -1326,6 +1327,99 @@ footer {
   letter-spacing: 0%;
 }
 
-.payment-gate .card-col{
+.payment-gate .card-col {
   padding: 8px 3%;
+}
+
+#auth-bg {
+  background-image: url("/layout/auth-bg.jpg");
+  background-color: #ed3456;
+  background-size: cover;
+  width: 50%;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+}
+#auth-bg h3 {
+  font-weight: 700;
+  margin-top: 100px;
+}
+#auth-bg p {
+  margin-bottom: 124px;
+}
+
+#auth {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#auth .log {
+  width: 75%;
+}
+
+#auth .log img {
+  width: 30%;
+}
+
+#auth .log .log-buttons {
+  background: #ed345636;
+  border-radius: 8px;
+  border: 4px solid #ffffff00;
+}
+.log-buttons {
+  margin: 18px 0 49px 0;
+}
+.log-buttons button {
+  width: 50%;
+}
+
+.log-buttons .not-active {
+  border: none;
+  background-color: #ffffff00;
+}
+.log-cond {
+  font-size: 0.7rem;
+}
+.log-cond-img {
+  width: 20px !important;
+  margin-bottom: -5px;
+}
+
+.full {
+  width: 100%;
+}
+
+.log div:last-child {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.log div:last-child span {
+  color: #9c9aa5;
+}
+.line {
+  border-bottom: 1px solid #9c9aa5;
+  width: 27%;
+  margin: 0 6px;
+  align-self: anchor-center;
+}
+.social-log-header {
+  place-content: center;
+  color: #9c9aa5;
+  margin: 24px 0;
+}
+
+.social-log {
+  display: flex;
+  justify-content: space-around;
+}
+.social-log button {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
 }
