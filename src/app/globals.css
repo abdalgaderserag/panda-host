@@ -1423,3 +1423,27 @@ footer {
   justify-content: center;
   padding: 8px;
 }
+#password-reset {
+  width: 40%;
+  justify-self: anchor-center;
+}
+#password-reset p {
+  background: #ed345638;
+  width: fit-content;
+  text-align: center;
+  justify-self: center;
+  border-radius: 6px;
+  padding: 10px 32px;
+  font-size: 0.8rem;
+  font-family: Sora;
+  line-height: 148%;
+}
+
+#password-reset input {
+  padding: 0 3%;
+  width: 94%;
+}
+
+#password-reset button{
+  padding: 8px 0;
+}
