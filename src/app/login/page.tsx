@@ -12,7 +12,7 @@ export default function login() {
           // Your JavaScript code here
         `}
       </Script>
-      <div className="container flex">
+      <div className="container flex log-container">
         <div id="auth-bg">
           <div>
             <h3 className="header-3">Welcome to PandaHost</h3>

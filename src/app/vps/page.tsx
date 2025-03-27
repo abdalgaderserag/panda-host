@@ -112,61 +112,63 @@ export default function vps() {
           </div>
         </div>
       </section>
-      <section className="container" id="vps-table-sec">
-        <h3 className="header-3">
-          Building one high performance site <br />
-          our plans flex to your needs
-        </h3>
-        <table className="full">
-          <thead>
-            <tr>
-              <th></th>
-              <th>VCPU</th>
-              <th>Memory</th>
-              <th>CPU</th>
-              <th>Storage</th>
-              <th>Bandwidth</th>
-              <th>Geek</th>
-              <th>Price</th>
-              <th></th>
-            </tr>
-          </thead>
+      <section className="container vps-table-sec">
+        <div id="vps-table-sec">
+          <h3 className="header-3">
+            Building one high performance site <br />
+            our plans flex to your needs
+          </h3>
+          <table className="full">
+            <thead>
+              <tr>
+                <th></th>
+                <th>VCPU</th>
+                <th>Memory</th>
+                <th>CPU</th>
+                <th>Storage</th>
+                <th>Bandwidth</th>
+                <th>Geek</th>
+                <th>Price</th>
+                <th></th>
+              </tr>
+            </thead>
 
-          <tbody>
-            {vpsPlans.map((vps, index) => (
-              <React.Fragment key={`vps-${index}`}>
-                <tr className={!(index % 2) ? "" : "vps-row"}>
-                  <th>{vps.name}</th>
-                  <th>{vps.vcpu}</th>
-                  <th>{vps.memory}</th>
-                  <th>{vps.cpu}</th>
-                  <th>{vps.memory}</th>
-                  <th>{vps.geek}</th>
-                  <th>{vps.storage}</th>
-                  <th>{vps.price}</th>
-                  <th>
-                    select plan{"  "}
-                    <svg
-                      width="18"
-                      height="14"
-                      viewBox="0 0 18 14"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M17 7L1 7M17 7L11 13M17 7L11 1"
-                        stroke="white"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </th>
-                </tr>
-              </React.Fragment>
-            ))}
-          </tbody>
-        </table>
+            <tbody>
+              {vpsPlans.map((vps, index) => (
+                <React.Fragment key={`vps-${index}`}>
+                  <tr className={!(index % 2) ? "" : "vps-row"}>
+                    <th>{vps.name}</th>
+                    <th>{vps.vcpu}</th>
+                    <th>{vps.memory}</th>
+                    <th>{vps.cpu}</th>
+                    <th>{vps.memory}</th>
+                    <th>{vps.geek}</th>
+                    <th>{vps.storage}</th>
+                    <th>{vps.price}</th>
+                    <th>
+                      select plan{"  "}
+                      <svg
+                        width="18"
+                        height="14"
+                        viewBox="0 0 18 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17 7L1 7M17 7L11 13M17 7L11 1"
+                          stroke="white"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </th>
+                  </tr>
+                </React.Fragment>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
       <Cta></Cta>
     </>

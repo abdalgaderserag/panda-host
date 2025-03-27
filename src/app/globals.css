@@ -86,107 +86,6 @@ label {
 img {
   width: 100%;
 }
-@media (max-width: 768px) {
-  .nav-links {
-    display: none !important;
-  }
-  #logo {
-    width: 50% !important;
-  }
-
-  #nav-actions {
-    width: 50% !important;
-  }
-  #hero-section {
-    flex-direction: column-reverse;
-  }
-
-  #hero-section .right-section {
-    width: 100% !important;
-  }
-
-  #hero-section .left-section div {
-    font-size: 1.8rem !important;
-  }
-
-  .call-to-action {
-    width: 100% !important;
-  }
-
-  #resection .main-content {
-    width: 94% !important;
-  }
-
-  #resection .main-content .test-holder {
-    flex-direction: column;
-  }
-  #resection .main-content .test-holder div {
-    width: 88% !important;
-    border-width: 0 0px 1px 0 !important;
-  }
-  #pricing-cards {
-    flex-direction: column;
-  }
-  .price-card {
-    width: 88% !important;
-    margin: 18px 3% !important;
-  }
-  #domain-search {
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-
-  #domain-search * {
-    margin: 4px 0 !important;
-    border-radius: 50px !important;
-  }
-
-  #about-us {
-    flex-direction: column;
-  }
-  #about-us div:first-child {
-    width: 100% !important;
-  }
-  #about-us div:last-child {
-    width: 100% !important;
-  }
-
-  #faq {
-    flex-direction: column-reverse;
-  }
-  #faq .right-faq {
-    width: 100% !important;
-  }
-
-  #faq .left-faq {
-    width: 100% !important;
-  }
-
-  footer {
-    flex-direction: column-reverse;
-  }
-  #footer-links {
-    flex-direction: column;
-  }
-  #footer-links div {
-    width: 100% !important;
-  }
-
-  #footer-logo {
-    width: 100% !important;
-  }
-
-  #hero-card-holder {
-    flex-direction: column;
-  }
-
-  #hero-section .left-section div{
-    width:88% !important;
-    margin-left: 3%;
-  }
-
-  /*  */
-}
 
 #nav-bar {
   display: flex;
@@ -265,6 +164,13 @@ img {
   font-size: 3rem;
   text-align: center;
   font-family: Sora;
+}
+
+#hero-card-holder .hero-card {
+  background: url("localhost:3000/layout/heroCard.svg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #hero-section .left-section .shield-image {
@@ -376,26 +282,6 @@ h1 {
   border-radius: 24px;
   border: 1.5px solid #9999998f;
   padding-bottom: 46px;
-  /* border-image: linear-gradient(
-    90deg,
-    #ffffff 0%,
-    rgba(153, 153, 153, 0.56) 100%
-  );
-  -o-border-image: linear-gradient(
-    90deg,
-    #ffffff 0%,
-    rgba(153, 153, 153, 0.56) 100%
-  );
-  -webkit-border-image: linear-gradient(
-    90deg,
-    #ffffff 0%,
-    rgba(153, 153, 153, 0.56) 100%
-  );
-  -moz-border-image: linear-gradient(
-    90deg,
-    #ffffff 0%,
-    rgba(153, 153, 153, 0.56) 100%
-  ); */
 }
 
 #resection .main-content .test-holder {
@@ -520,6 +406,37 @@ h1 {
 .price-card:nth-child(2) button {
   color: #ed3456;
   background: #fff;
+}
+
+.price-card:nth-child(2) .price-header-icon div:first-child {
+  border-radius: 0;
+}
+
+.price-card:nth-child(2) .price-header-icon div:last-child {
+  border-radius: 0;
+}
+
+.price-card:nth-child(2) .price-header-icon div:last-child div:first-child {
+  background: #ed34569e;
+}
+
+.price-card:nth-child(2) .price-header-icon div:last-child div:last-child {
+  background: #ffffffb2;
+}
+.price-label {
+  font-size: 0.9rem;
+  background: #ffffff33 !important;
+  position: relative;
+  bottom: 64px;
+  left: 150%;
+  color: #fff !important;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 32%;
+}
+
+.price-card:nth-child(3) .price-header-icon img {
+  width: 42px;
 }
 
 .price-card-header {
@@ -1148,7 +1065,7 @@ footer {
   justify-items: center;
 }
 
-.contact-icons:last-child{
+.contact-icons:last-child {
   top: -104px;
 }
 
@@ -1422,7 +1339,7 @@ footer {
 .line {
   border-bottom: 1px solid #9c9aa5;
   width: 27%;
-  margin: 0 6px;
+  margin: 0 6px !important;
   align-self: anchor-center;
 }
 .social-log-header {
@@ -1505,4 +1422,228 @@ footer {
 
 .domain-price span {
   font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none !important;
+  }
+  #logo {
+    width: 50% !important;
+  }
+
+  #nav-actions {
+    width: 50% !important;
+  }
+  #hero-section {
+    flex-direction: column-reverse;
+  }
+
+  #hero-section .right-section {
+    width: 100% !important;
+  }
+
+  #hero-section .left-section div {
+    font-size: 1.8rem !important;
+  }
+
+  .call-to-action {
+    width: 100% !important;
+  }
+
+  #resection .main-content {
+    width: 94% !important;
+  }
+
+  #resection .main-content .test-holder {
+    flex-direction: column;
+  }
+  #resection .main-content .test-holder div {
+    width: 88% !important;
+    border-width: 0 0px 1px 0 !important;
+  }
+  #pricing-cards {
+    flex-direction: column;
+  }
+  .price-card {
+    width: 80% !important;
+    margin: 18px 3% !important;
+  }
+  #domain-search {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  #domain-search * {
+    margin: 4px 0 !important;
+    border-radius: 50px !important;
+  }
+
+  #addon {
+    flex-direction: column;
+  }
+  .addon-row {
+    width: 100%;
+  }
+
+  #state {
+    padding: 6px 2%;
+    height: auto;
+    width: 96%;
+  }
+
+  .log-container {
+    flex-direction: column;
+    width: 92%;
+  }
+
+  #auth-bg {
+    width: 100%;
+  }
+
+  #auth {
+    width: 100%;
+  }
+
+  #auth .input-text {
+    width: 88%;
+  }
+
+  .state {
+    flex-direction: column;
+  }
+  .state-card {
+    padding: 36px;
+    border-right: none;
+    border-bottom: 1px solid #ffffff6e;
+    width: 80%;
+  }
+  #about-us {
+    flex-direction: column;
+  }
+  #about-us div:first-child {
+    width: 100% !important;
+  }
+  #about-us div:last-child {
+    width: 100% !important;
+  }
+
+  #faq {
+    flex-direction: column-reverse;
+  }
+  #faq .right-faq {
+    width: 100% !important;
+  }
+
+  #faq .left-faq {
+    width: 100% !important;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+  #footer-links {
+    flex-direction: column;
+  }
+  #footer-links div {
+    width: 100% !important;
+  }
+
+  #footer-logo {
+    width: 100% !important;
+  }
+
+  #hero-card-holder {
+    flex-direction: column;
+  }
+
+  #hero-section .left-section div {
+    width: 88% !important;
+    margin-left: 3%;
+  }
+
+  .cart-offer {
+    flex-direction: column;
+    height: 240px;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card-col {
+    width: 92% !important;
+    margin-top: 8px;
+  }
+
+  .cart-plan {
+    flex-direction: column;
+    height: 200px;
+  }
+
+  #service-cards .service-row {
+    flex-direction: column;
+  }
+
+  #service-cards .service-row .service-card {
+    width: 83% !important;
+    margin: 18px 2% 0 2%;
+  }
+
+  .domain-container {
+    flex-direction: column;
+  }
+
+  #domains-view {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+
+  #domains-view div {
+    border-width: 0 !important;
+  }
+
+  .shield {
+    margin-left: 0 !important;
+  }
+
+  #password-reset {
+    width: 98%;
+  }
+  .vps {
+    flex-direction: column;
+  }
+  .vps-table-sec {
+    overflow-x: auto;
+    padding: 0;
+    width: 100%;
+  }
+  #vps-table-sec {
+    width: fit-content;
+  }
+  .flex {
+    flex-direction: column;
+  }
+
+  .contact-col {
+    margin: 0;
+    width: 100% !important;
+  }
+
+  .contact-col .input-text {
+    width: 92%;
+  }
+
+  .contact-icons {
+    position: initial;
+    margin: 0;
+    top: 0;
+  }
+
+  .contact-text {
+    height: fit-content;
+  }
+
+  /*  */
 }

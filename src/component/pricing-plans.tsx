@@ -52,11 +52,15 @@ export default function pricingPlans() {
           <div className="price-card-header">
             <div className="price-header-icon">
               <div></div>
-              <div></div>
+              <div className="flex">
+                <div></div>
+                <div></div>
+              </div>
             </div>
             <div className="price-header-text">
               <span>For startups</span>
               <h4>Pro</h4>
+              <button className="price-label">Popular</button>
             </div>
           </div>
           <div className="price-body">
@@ -93,8 +97,7 @@ export default function pricingPlans() {
         <div className="price-card">
           <div className="price-card-header">
             <div className="price-header-icon">
-              <div></div>
-              <div></div>
+              <img src="/layout/enterprise.svg" alt="icon" />
             </div>
             <div className="price-header-text">
               <span>For big companies</span>
